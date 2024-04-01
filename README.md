@@ -124,3 +124,8 @@ To run the frontend of the OpenSoft 2024 project, navigate to the frontend direc
 3. Start the development server on the specified port (5173) with `npm run dev`.
 4. Access the frontend in your browser at `http://localhost:5173`.
 
+### Steps to setup environment (.env)
+
+1. Make a .env in both Frontend and backend
+2. Declare DB_CONN and OPENAI_KEY keys in the backend .env and put the Mongodb Atlas database link and your openai key to generate embeddings respectively.
+3. Declare VITE_BHOST and VITE_WS_HOST in Frontend env and put backend hosted link and websocket url respectively. 
